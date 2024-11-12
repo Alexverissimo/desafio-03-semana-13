@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: robot;
+    box-sizing: border-box;
+}
+
+#main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    align-items: center;
+    
+}
+#title-input {
+    font-size: 40px;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+}
+
+#search {
+    width: 687.88px;
+    height: 56px;
+    border-radius: 16px;
+    border: 1px solid #18191F;
+    margin-right: 17px;
+    margin: 24px 0 24px 0;
+    font-size: 24px;
+    padding-left: 17px;
+
+}
+#search::placeholder { 
+    font-size: 24px;
+}
+
+#button {
+    width: 83px;
+    height: 56px;
+    border-radius: 16px;
+    border: 1px solid #18191F;
+    cursor: pointer;
+    background-color: #004346;
+    text-align: center;
+    margin-left: 17px;
+}
+
+#or {
+    display: flex;
+    align-items: center;
+    margin-bottom: 41px;
+}
+.or {
+    font-size: 24px;
+    margin: 0 10px 0 10px;
+}
+.line {
+    width: 361px;
+    height: 5px;
+    background-color: #004346;
+}
+.test {
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+#acess {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+#acess-text {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#acess-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    width: 130px;
+    height: 48px;
+    background-color: #172A3A;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.gitimg {
+    margin-right: 10px;
+}
+
+.user-suggestion{
+    padding: 10px;
+    border-bottom: 1px solid #C9CACC;
+    width:700px;
+}
+
+.user-suggestion:hover{
+    background-color: rgb(225, 221, 221);
+}
